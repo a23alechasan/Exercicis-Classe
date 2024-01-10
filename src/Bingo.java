@@ -15,6 +15,7 @@ public class Bingo {
                     bola = taulell[i];
                 }
             }
+            System.out.println("AAAAAAAAAAAAAA");
         }
     }
 }
