@@ -9,13 +9,13 @@ public class Bingo {
             for (int j = 0; j < 91; j++) {
                 if (bola == taulell[j]){
                     bola = rand.nextInt(1, 91);
-                    j--;
-                }
-                else {
-                    bola = taulell[i];
+                    j = 0;
                 }
             }
-            System.out.println("AAAAAAAAAAAAA");
+            taulell[i] = bola;
+        }
+        for (int i = 0; i < 91; i++) {
+            System.out.print(taulell[i]+" ");
         }
     }
 }
